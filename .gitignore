@@ -1,0 +1,13 @@
+.env
+.env.local
+*.db
+*.sqlite
+data/amazon_products.csv
+data/amazon_categories.csv
+__pycache__/
+*.pyc
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
