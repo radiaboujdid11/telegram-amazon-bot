@@ -1,4 +1,4 @@
-# 🤖 Telegram Amazon Bot
+# Telegram Amazon Bot
 
 A Telegram bot that helps users find Amazon products through natural conversation. It understands plain-language queries (French or English), searches a local SQLite database of real Amazon products, and uses [Groq](https://groq.com/) (Llama 3) to generate friendly, context-aware recommendations.
 
@@ -10,12 +10,12 @@ A Telegram bot that helps users find Amazon products through natural conversatio
 
 ## Features
 
-- 🔍 **Smart product search** — fuzzy keyword + category matching over a local Amazon products dataset (SQLite), ranked by best-seller status, rating, and review count.
-- 💬 **Natural language understanding** — detects greetings, questions, and product searches, and extracts price filters from phrases like `"laptop max:1000"` or `"shoes moins de 100"`.
-- 🧠 **AI-generated responses** — Groq's Llama models write short, conversational replies and product recommendations based on real search results (no hallucinated products).
-- 🗂️ **Per-user memory** — tracks search history, preferences (budget, favorite categories), and stats per Telegram user in SQLite.
-- 📂 **Category browsing** — `/categories` lists the most popular product categories available.
-- 📊 **User stats** — `/stats` shows a user's search count and history.
+1. **Smart product search** — fuzzy keyword + category matching over a local Amazon products dataset (SQLite), ranked by best-seller status, rating, and review count.
+2. **Natural language understanding** — detects greetings, questions, and product searches, and extracts price filters from phrases like `"laptop max:1000"` or `"shoes moins de 100"`.
+3. **AI-generated responses** — Groq's Llama models write short, conversational replies and product recommendations based on real search results (no hallucinated products).
+4. **Per-user memory** — tracks search history, preferences (budget, favorite categories), and stats per Telegram user in SQLite.
+5. **Category browsing** — `/categories` lists the most popular product categories available.
+6. **User stats** — `/stats` shows a user's search count and history.
 
 ## Tech stack
 
